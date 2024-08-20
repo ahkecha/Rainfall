@@ -35,7 +35,7 @@ AAAA %4$p
 AAAA 0x41414141
 ```
 
-Now we can use the `%n` format specifier to write the value 64 to the address of the `m` variable. To achieve this, we need to write 64 characters to the buffer first, using the format `AAAA%<value-4>x%7$n` (where `value-4` is the number of bytes already written, in this case 4 for "AAAA"). For example, `AAAA%96x%7$n` will write the value 100 at the address 0x41414141. This is because `%100x` will print the argument padded with 100 bytes (using spaces as padding).
+Now we can use the `%n` format specifier to write the value 64 to the address of the `m` variable. To achieve this, we need to write 64 characters to the buffer first, w, we just need to write the proper value at this address. The following input should do the trick : "\x8c\x98\x04\x08%x60%5$n". Note that we only need to add 60 as the address is 4 bytes long.
 
 
 ```bash

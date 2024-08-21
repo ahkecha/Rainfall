@@ -1,4 +1,4 @@
-
+int m = 0
 
 void p(char *param_1)
 {

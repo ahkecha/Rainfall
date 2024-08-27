@@ -31,6 +31,5 @@ int main(int ac, char **av)
     v4 = new (6);
 
     v3->setAnnotation(av[1]);
-    // mov edx, eax
-    return v3 + v4; // call edx 
+    return v3 + v4;
 }

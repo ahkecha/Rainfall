@@ -16,7 +16,7 @@ $1 = (<data variable, no debug info> *) 0x8049810
 We have the address of the variable
 
 
-Now we can see that the buffer is the 12th argument on the stack, so we can use the %4$p format specifier to print the value of the buffer:
+Now we can see that the buffer is the 12th argument on the stack, so we can use the %12$p format specifier to print the value of the buffer:
 
 
 ```

@@ -18,16 +18,16 @@ Rainfall is an introduction to binary exploitation, focusing on elf-like binarie
 
 | Level  | Link                         |
 |--------|------------------------------|
-| level00| [level00](./level00)         |
-| level01| [level01](./level01)         |
-| level02| [level02](./level02)         |
-| level03| [level03](./level03)         |
-| level04| [level04](./level04)         |
-| level05| [level05](./level05)         |
-| level06| [level06](./level06)         |
-| level07| [level07](./level07)         |
-| level08| [level08](./level08)         |
-| level09| [level09](./level09)         |
+| level00| [level00](./level0)         |
+| level01| [level01](./level1)         |
+| level02| [level02](./level2)         |
+| level03| [level03](./level3)         |
+| level04| [level04](./level4)         |
+| level05| [level05](./level5)         |
+| level06| [level06](./level6)         |
+| level07| [level07](./level7)         |
+| level08| [level08](./level8)         |
+| level09| [level09](./level9)         |
 
 
 Once again i got bored trying to write this readme
